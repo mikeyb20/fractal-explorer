@@ -3,7 +3,13 @@
   "hooks": {
     "Stop": [
       {
-        "command": "scripts/validate-turn.sh"
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "scripts/validate-turn.sh"
+          }
+        ]
       }
     ]
   }
