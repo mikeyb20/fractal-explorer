@@ -1,0 +1,20 @@
+# Rust
+/target
+**/*.rs.bk
+Cargo.lock.bak
+
+# Web build
+/dist
+/pkg
+node_modules
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Claude Code workflow kit
+scratchpad*.md
+.claude/worktrees/
+.claude/scope.txt
