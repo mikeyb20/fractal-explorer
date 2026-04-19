@@ -1,0 +1,11 @@
+[package]
+name = "fractal-desktop"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+description = "Native desktop front-end for fractal-explorer (stub for v0.1)."
+
+[lints]
+workspace = true

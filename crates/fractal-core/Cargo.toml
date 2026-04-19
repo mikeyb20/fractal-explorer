@@ -7,5 +7,11 @@ repository.workspace = true
 rust-version.workspace = true
 description = "Shared fractal math, coloring, and shader generation for fractal-explorer."
 
+[dependencies]
+bytemuck = { version = "1.16", features = ["derive"] }
+
+[dev-dependencies]
+naga = { version = "0.20", features = ["wgsl-in"] }
+
 [lints]
 workspace = true

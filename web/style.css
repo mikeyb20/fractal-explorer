@@ -1,0 +1,19 @@
+html, body {
+  margin: 0; padding: 0;
+  height: 100%; width: 100%;
+  overflow: hidden; background: #000;
+}
+#fractal {
+  display: block;
+  width: 100vw; height: 100vh;
+  touch-action: none;
+}
+#error-overlay {
+  position: fixed; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(0,0,0,0.92);
+  color: #eee; font: 16px/1.4 system-ui, sans-serif;
+  text-align: center; padding: 2rem;
+  z-index: 10;
+}
+#error-overlay[hidden] { display: none; }
